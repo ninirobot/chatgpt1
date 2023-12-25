@@ -1,5 +1,8 @@
 tiktoken>=0.3.2 # openai calculate token
 
+#google
+google.generativeai
+
 #voice
 pydub>=0.25.1 # need ffmpeg
 SpeechRecognition # google speech to text
