@@ -31,11 +31,11 @@ class AzureVoice(Voice):
             config = None
             if not os.path.exists(config_path):  # 如果没有配置文件，创建本地配置文件
                 config = {
-                    "speech_synthesis_voice_name": "zh-CN-XiaoxiaoNeural",  # 识别不出时的默认语音
+                    "speech_synthesis_voice_name": "zh-CN-XiaozhenNeural",  # 识别不出时的默认语音
                     "auto_detect": True,  # 是否自动检测语言
-                    "speech_synthesis_zh": "zh-CN-XiaozhenNeural",
-                    "speech_synthesis_en": "en-US-JacobNeural",
-                    "speech_synthesis_ja": "ja-JP-AoiNeural",
+                    "speech_synthesis_zh": "zh-CN-XiaochenNeural",
+                    "speech_synthesis_en": "en-US-EricNeural",
+                    "speech_synthesis_ja": "ja-JP-NanamiNeural",
                     "speech_synthesis_ko": "ko-KR-SoonBokNeural",
                     "speech_synthesis_de": "de-DE-LouisaNeural",
                     "speech_synthesis_fr": "fr-FR-BrigitteNeural",
